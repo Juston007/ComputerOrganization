@@ -44,7 +44,7 @@ WE(低电平有效)信号直接并联就可以
 <br>
 
 # 字位扩展
-![字扩展](https://raw.githubusercontent.com/Juston007/ComputerOrganization/main/Chapter4_Memory/img/%E5%AD%97%E6%89%A9%E5%B1%95.jpg)
+![字位扩展](https://raw.githubusercontent.com/Juston007/ComputerOrganization/main/Chapter4_Memory/img/%E5%AD%97%E4%BD%8D%E6%89%A9%E5%B1%95.png)
 既增加存储字数量，又增加存储字长
 
 # 存储器与CPU的连接
