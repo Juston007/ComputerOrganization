@@ -8,17 +8,43 @@
 3. 字位扩展
 
 # 位扩展
+![位扩展](https://raw.githubusercontent.com/Juston007/ComputerOrganization/main/Chapter4_Memory/img/%E4%BD%8D%E6%89%A9%E5%B1%95.jpg)
 用多个存储器件对字长进行扩充，增加存储字长使其数据位数与CPU的数据线数相等
 
 连接方式：将多个存储芯片的地址端、片选端和读写控制端相应并联，数据段分别引出
 
 # 字扩展
+![字扩展](https://raw.githubusercontent.com/Juston007/ComputerOrganization/main/Chapter4_Memory/img/%E5%AD%97%E6%89%A9%E5%B1%95.jpg)
 增加存储器中字的数量，而位数不变
 
 将芯片的地址线、数据线、读写控制端相应并联，而由片选信号来区分各芯片的地址范围
 
+两颗1K * 8位芯片连接了相同的数据位
+
+1K = 2^10 为了区分两颗存储芯片又加了一根地址线
+
+用于区分芯片的地址线都接到芯片的CS(低电平有效)
+
+其中一颗要加非门，那么就是可以分别选中芯片
+
+<br>
+
+### 芯片1
+开始 0 0000 0000 00
+
+结束 0 1111 1111 11
+
+### 芯片2
+开始 1 0000 0000 00
+
+结束 1 1111 1111 11
+
+<br>
+WE(低电平有效)信号直接并联就可以
+<br>
 
 # 字位扩展
+![字扩展](https://raw.githubusercontent.com/Juston007/ComputerOrganization/main/Chapter4_Memory/img/%E5%AD%97%E6%89%A9%E5%B1%95.jpg)
 既增加存储字数量，又增加存储字长
 
 # 存储器与CPU的连接
