@@ -8,8 +8,9 @@ Cache位于存储器层次结构的顶层，通常由SRAM组成；
 
 # 例题 4.7
 
-# Cache的读写操作
-## 读
+# Cache的读写操作（判断）
+## Cache读数
+![Cache读数流程图](https://raw.githubusercontent.com/Juston007/ComputerOrganization/main/Review/img/chapter3/Cache%E7%9A%84%E8%AF%BB%E6%95%B0%E6%93%8D%E4%BD%9C.jpg)
 
 ## Cache写命中
 * 全写法；当CPU对Cache写命中时，必须把数据同时写入Cache和主存；当某一块需要替换时，不必把该块写入主存，直接替换即可；
@@ -23,7 +24,7 @@ Cache位于存储器层次结构的顶层，通常由SRAM组成；
 ### 非写分配法通常与全写法合用
 
 
-# Cache的改进
+# Cache的改进（了解）
 ## 单级缓冲和多级缓冲
 * 单级缓冲，是指在CPU和主存之间只设置一个缓存；
 
@@ -33,7 +34,7 @@ Cache位于存储器层次结构的顶层，通常由SRAM组成；
 
 分立缓存：指令和数据分别存放在两个缓存中    数据Cache、指令Cache
 
-# Cache和主存地址映射
+# Cache和主存地址映射（重点）
 由主存地址映射到Cache地址称为地址映射；
 
 即把存放在主存中的数据按照某种规则装入Cache
