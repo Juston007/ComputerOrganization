@@ -1,5 +1,7 @@
 # 高速缓冲器
-Cache位于存储器层次结构的顶层，通常由SRAM组成
+Cache的出现是为了解决CPU和主存速度不匹配的问题；
+
+Cache位于存储器层次结构的顶层，通常由SRAM组成；
 
 # 工作原理
 ![工作原理](https://raw.githubusercontent.com/Juston007/ComputerOrganization/main/Chapter4_Memory/img/Cache%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86.jpg)
